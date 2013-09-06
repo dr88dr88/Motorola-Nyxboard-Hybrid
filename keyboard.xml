@@ -1,0 +1,351 @@
+<keymap>
+  <global>
+  <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- <key id="61952">ActivateWindow(shutdownmenu)</key> 					Power button-->
+	<f4>FullScreen</f4>            										<!--USER Key -->
+	<f3 mod="shift">ContextMenu</f3>    								<!-- Red -->
+	<f4 mod="shift">Queue</f4>											<!-- Green -->
+	<f5 mod="shift">DecreaseRating</f5>									<!-- Yellow -->
+	<f6 mod="shift">IncreaseRating</f6>									<!-- Blue -->
+	<d mod="ctrl">Info</d>  											<!-- INFO  -->
+  	<f3>XBMC.ActivateWindow(pvr)</f3> 									<!-- EPG   -->
+    <two>FilterSMS2</two>												<!-- SMS Filter  -->
+    <three>FilterSMS3</three>
+	<four>FilterSMS4</four>
+    <five>FilterSMS5</five>
+    <six>FilterSMS6</six>
+    <seven>FilterSMS7</seven>
+    <eight>FilterSMS8</eight>
+    <nine>FilterSMS9</nine>												<!-- SMS Filter  -->
+    </keyboard>
+  </global>
+  
+
+  <LoginScreen>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </LoginScreen>
+
+  
+  <Home>
+    <keyboard name="Motorola Nyxboard Hybrid">
+    <!-- Empty -->
+    </keyboard>
+  </Home>
+  
+
+  <VirtualKeyboard>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<play_pause>Close</play_pause>										<!-- Play -->
+	<return>Enter</return>												<!-- Enter/OK Presses Enter -->
+	<home>Close</home>													<!-- Home to close keyboard -->
+    </keyboard>
+  </VirtualKeyboard>
+  
+
+  <MyFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<one>Highlight</one>												<!-- One = Highlight -->
+    </keyboard>
+  </MyFiles>
+
+
+  <MyMusicPlaylist>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">Back</f5>											<!-- Yellow -->
+    </keyboard>
+  </MyMusicPlaylist>
+
+
+  <MyMusicPlaylistEditor>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">Back</f5>											<!-- Yellow -->
+    </keyboard>
+  </MyMusicPlaylistEditor>
+
+
+  <MyMusicFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">XBMC.ActivateWindow(musicplaylist)</f5>  			<!-- Yellow -->
+	<zero>XBMC.ActivateWindow(musicfiles)</zero>						<!-- Reopen music files window to reset sms -->
+    </keyboard>
+  </MyMusicFiles>
+
+
+  <MyMusicLibrary>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">XBMC.ActivateWindow(musicplaylist)</f5>  			<!-- Yellow -->
+	<zero>XBMC.ActivateWindow(musiclibrary)</zero>						<!-- Reopen music library window to reset sms -->
+    </keyboard>
+  </MyMusicLibrary>
+
+
+  <FullscreenVideo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f3 mod="shift">RunScript(script.xbmc.subtitles)</f3>   			<!-- Red -->
+	<f4 mod="shift">NextSubtitle</f4>     								<!-- Green -->
+	<f5 mod="shift">SubtitleDelay</f5> 									<!-- Yellow -->
+	<f6 mod="shift">CodecInfo</f6>       								<!-- Blue -->
+	<left>SmallStepBack</left>											<!-- Left arrow -->
+	<backspace>Stop</backspace>											<!-- Back -->
+	<one>Number1</one>													<!-- Normal number function  -->
+	<two>Number2</two>
+    <three>Number3</three>
+    <four>Number4</four>
+    <five>Number5</five>
+    <six>Number6</six>
+    <seven>Number7</seven>
+    <eight>Number8</eight>
+    <nine>Number9</nine>
+	<zero>Number0</zero>												<!-- Normal number function  -->	
+    </keyboard>
+  </FullscreenVideo>
+
+
+  <VideoTimeSeek>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </VideoTimeSeek>
+
+
+  <FullscreenInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<d mod="ctrl">Back</d>  											<!-- INFO  -->
+    </keyboard>
+  </FullscreenInfo>
+
+
+  <PlayerControls>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </PlayerControls>
+
+
+  <Visualisation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </Visualisation>
+
+
+  <MusicOSD>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </MusicOSD>
+
+
+  <VisualisationSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </VisualisationSettings>
+
+
+  <VisualisationPresetList>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </VisualisationPresetList>
+
+
+  <SlideShow>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <zero>ZoomNormal</zero>
+      <one>ZoomLevel1</one>
+      <two>ZoomLevel2</two>
+      <three>ZoomLevel3</three>
+      <four>ZoomLevel4</four>
+      <five>ZoomLevel5</five>
+      <six>ZoomLevel6</six>
+      <seven>ZoomLevel7</seven>
+      <eight>ZoomLevel8</eight>
+      <nine>ZoomLevel9</nine>
+    </keyboard>
+  </SlideShow>
+
+
+  <ScreenCalibration>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <return>NextCalibration</return>
+      <enter>NextCalibration</enter>
+      <d>ResetCalibration</d>
+      <r>NextResolution</r>
+    </keyboard>
+  </ScreenCalibration>
+
+
+  <GUICalibration>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </GUICalibration>
+
+
+  <VideoOSD>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </VideoOSD>
+
+
+  <VideoMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f4>CodecInfo</f4>            										<!--USER Key -->
+	<f3 mod="shift">RunScript(script.xbmc.subtitles)</f3>   			<!-- Red -->
+	<f4 mod="shift">NextSubtitle</f4>     								<!-- Green -->
+	<f5 mod="shift">SubtitleDelay</f5> 									<!-- Yellow -->
+	<f6 mod="shift">AudioDelay</f6>       								<!-- Blue -->
+	<left>SmallStepBack</left>											<!-- Left arrow -->
+	<backspace>Stop</backspace>											<!-- Back -->
+	<d mod="ctrl">Info</d>  											<!-- INFO  -->
+    </keyboard>
+  </VideoMenu>
+
+
+  <OSDVideoSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </OSDVideoSettings>
+
+
+  <OSDAudioSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </OSDAudioSettings>
+
+
+  <VideoBookmarks>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <f3 mod="shift">Delete</f3>    									<!-- Red -->
+    </keyboard>
+  </VideoBookmarks>
+
+
+  <MyVideoLibrary>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">XBMC.ActivateWindow(videoplaylist)</f5> 			<!-- Yellow -->
+	<f6 mod="shift">ToggleWatched</f6>       							<!-- Blue -->
+	<zero>XBMC.ActivateWindow(videolibrary)</zero>						<!-- Reopen video library window to reset sms -->
+	<play_pause>XBMC.VideoLibrary.Search</play_pause>					<!-- Play -->
+    </keyboard>
+  </MyVideoLibrary>
+
+
+  <MyVideoFiles>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">XBMC.ActivateWindow(videoplaylist)</f5> 			<!-- Yellow -->
+	<f6 mod="shift">ToggleWatched</f6>       							<!-- Blue -->
+	<zero>XBMC.ActivateWindow(videofiles)</zero>						<!-- Reopen video files window to reset sms -->
+	<play_pause>XBMC.VideoLibrary.Search</play_pause>					<!-- Play -->
+    </keyboard>
+  </MyVideoFiles>
+
+
+  <MyVideoPlaylist>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f5 mod="shift">Back</f5>											<!-- Yellow -->
+    </keyboard>
+  </MyVideoPlaylist>
+
+
+  <MyPictures>
+    <keyboard name="Motorola Nyxboard Hybrid">
+     	<!-- Empty -->
+    </keyboard>
+  </MyPictures>
+
+
+  <ContextMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<f3 mod="shift">Back</f3>    										<!-- Red -->
+    </keyboard>
+  </ContextMenu>
+
+
+  <Scripts>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <!-- Empty -->
+    </keyboard>
+  </Scripts>
+
+
+  <MusicInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<d mod="ctrl">Back</d>  											<!-- INFO  -->
+    </keyboard>
+  </MusicInformation>
+
+
+  <MovieInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <d mod="ctrl">Back</d>  											<!-- INFO  -->
+    </keyboard>
+  </MovieInformation>
+
+
+  <PictureInfo>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<d mod="ctrl">Back</d>  											<!-- INFO  -->
+    </keyboard>
+  </PictureInfo>
+
+
+  <Teletext>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </Teletext>
+
+
+  <FileBrowser>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<one>Highlight</one>												<!-- One -->
+    </keyboard>
+  </FileBrowser>
+
+
+  <ShutdownMenu>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<key id="61952">Back</key> 											<!-- Use the Power button to go back -->	
+    </keyboard>
+  </ShutdownMenu>
+
+
+  <AddonInformation>
+    <keyboard name="Motorola Nyxboard Hybrid">
+      <d mod="ctrl">Back</d>  											<!-- INFO  -->
+    </keyboard>
+  </AddonInformation>
+
+
+  <AddonSettings>
+    <keyboard name="Motorola Nyxboard Hybrid">
+	<!-- Empty -->
+    </keyboard>
+  </AddonSettings>
+  
+  <Teletext>
+    <keyboard name="Motorola Nyxboard Hybrid">
+		<f3 mod="shift">Red</f3>   											<!-- Red -->
+		<f4 mod="shift">Green</f4>		     								<!-- Green -->
+		<f5 mod="shift">Yellow</f5>		 									<!-- Yellow -->
+		<f6 mod="shift">Blue</f6>		       								<!-- Blue -->
+		<one>Number1</one>													<!-- Normal number function  -->
+		<two>Number2</two>
+		<three>Number3</three>
+		<four>Number4</four>
+		<five>Number5</five>
+		<six>Number6</six>
+		<seven>Number7</seven>
+		<eight>Number8</eight>
+		<nine>Number9</nine>
+		<zero>Number0</zero>												<!-- Normal number function  -->
+    </keyboard>
+  </Teletext>
+</keymap>
