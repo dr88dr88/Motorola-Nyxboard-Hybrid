@@ -83,7 +83,7 @@
 
   <FullscreenVideo>
     <keyboard name="Motorola Nyxboard Hybrid">
-	<f3 mod="shift">RunScript(script.xbmc.subtitles)</f3>   			<!-- Red -->
+	<f3 mod="shift">SubtitleSearch</f3>   								<!-- Red -->
 	<f4 mod="shift">NextSubtitle</f4>     								<!-- Green -->
 	<f5 mod="shift">SubtitleDelay</f5> 									<!-- Yellow -->
 	<f6 mod="shift">CodecInfo</f6>       								<!-- Blue -->
