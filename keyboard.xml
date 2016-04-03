@@ -8,7 +8,7 @@
 	<f5 mod="shift">DecreaseRating</f5>									<!-- Yellow -->
 	<f6 mod="shift">IncreaseRating</f6>									<!-- Blue -->
 	<d mod="ctrl">Info</d>  											<!-- INFO  -->
-  	<f3>XBMC.ActivateWindow(pvr)</f3> 									<!-- EPG   -->
+  	<f3>XBMC.ActivateWindow(TVGuide)</f3> 									<!-- EPG   -->
     <two>FilterSMS2</two>												<!-- SMS Filter  -->
     <three>FilterSMS3</three>
 	<four>FilterSMS4</four>
